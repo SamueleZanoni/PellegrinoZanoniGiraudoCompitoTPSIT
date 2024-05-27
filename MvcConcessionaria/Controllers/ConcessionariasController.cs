@@ -159,5 +159,10 @@ namespace MvcConcessionaria.Controllers
         {
           return (_context.Concessionaria?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+        public IActionResult ShowRoom()
+        {
+            return View();
+        }
     }
 }
