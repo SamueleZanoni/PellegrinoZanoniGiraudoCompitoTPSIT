@@ -14,4 +14,3 @@ public class Concessionaria
     public decimal Cilindrata { get; set; }
     public string? Alimentazione { get; set; }
 }
-//sono stato qui, vengo da reggio emilia
