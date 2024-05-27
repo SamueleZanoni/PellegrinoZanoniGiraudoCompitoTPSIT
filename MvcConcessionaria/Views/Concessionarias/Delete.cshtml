@@ -1,14 +1,13 @@
 ﻿@model MvcConcessionaria.Models.Concessionaria
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Acquista";
 }
 
-<h1>Compra</h1>
+<h1 class="text-white">Acquista</h1>
 
-<h3>Sei sicuro di voler comprare questa macchina?</h3>
+<h3>Sei sicuro di voler acquistare questa macchina?</h3>
 <div>
-    <h4>Concessionaria</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -65,7 +64,7 @@
             <input type="text" id="CodiceFiscale" name="CodiceFiscale" class="form-control" />
         </div>
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Compra" class="btn btn-danger" /> |
+        <input type="submit" value="Acquista" class="btn btn-danger" /> |
         <a asp-action="Index">Back to List</a>
     </form>
 </div>
