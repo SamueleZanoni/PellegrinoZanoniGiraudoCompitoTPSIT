@@ -68,4 +68,25 @@ body {
     padding: 25px 0;
 }
 
+.custom-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    height: 100%;
+}
+
+.row.mt-5 {
+    display: flex;
+}
+
+.col-md-6 .mt-auto {
+    margin-top: auto; 
+}
+
+
 
