@@ -160,9 +160,11 @@ namespace MvcConcessionaria.Controllers
           return (_context.Concessionaria?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
-        public IActionResult ShowRoom()
+        public async Task<IActionResult> ShowRoom()
         {
-            return View();
+            // Recupera i dati delle concessionarie dal contesto
+            var concessionarie = await _context.Concessionaria.ToListAsync();
+            return View(concessionarie);
         }
     }
 }
