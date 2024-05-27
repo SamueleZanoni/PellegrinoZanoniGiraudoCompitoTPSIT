@@ -61,3 +61,11 @@ body {
         color: #666 !important; 
     }
 
+.bg-image {
+    background-image: url('https://www.hdcarwallpapers.com/walls/mercedes_benz_cls_interior-HD.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0;
+}
+
+
