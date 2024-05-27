@@ -18,5 +18,24 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #141414;
+    color: #fff;
+}
+
+.showroom-container {
+    padding: 20px;
+}
+
+.showroom-item {
+    margin-bottom: 20px;
+}
+
+    .showroom-item img {
+        width: 100%;
+        height: auto;
+    }
+
+.showroom-text {
+    margin-top: 10px;
 }
