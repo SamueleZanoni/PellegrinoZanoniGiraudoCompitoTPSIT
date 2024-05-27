@@ -1,5 +1,70 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Show Room";
 }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .showroom-container {
+            padding: 20px;
+        }
+
+        .showroom-item {
+            margin-bottom: 20px;
+        }
+
+            .showroom-item img {
+                width: 100%;
+                height: auto;
+            }
+
+        .showroom-text {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container showroom-container">
+        <div class="text-center">
+            <h1 class="display-4">Show Room</h1>
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        </div>
+
+        <div class="row showroom-item">
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/400x300" alt="Immagine 1">
+            </div>
+            <div class="col-md-6 showroom-text">
+                <h2>Titolo 1</h2>
+                <p>Testo descrittivo per l'immagine 1. Questa è una descrizione dell'immagine.</p>
+            </div>
+        </div>
+
+        <div class="row showroom-item">
+            <div class="col-md-6 showroom-text order-md-2">
+                <h2>Titolo 2</h2>
+                <p>Testo descrittivo per l'immagine 2. Questa è una descrizione dell'immagine.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="https://via.placeholder.com/400x300" alt="Immagine 2">
+            </div>
+        </div>
+
+        <div class="row showroom-item">
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/400x300" alt="Immagine 3">
+            </div>
+            <div class="col-md-6 showroom-text">
+                <h2>Titolo 3</h2>
+                <p>Testo descrittivo per l'immagine 3. Questa è una descrizione dell'immagine.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
